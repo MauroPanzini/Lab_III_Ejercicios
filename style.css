@@ -1,0 +1,24 @@
+/* Selecciona todo, con estas dos propiedades pongo en 0 la página y le saco la carga predeterminada del navegador */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector de etiqueta */
+h1{
+    color: blueviolet;
+}
+/* Selector por ID */
+#primerParrafo{
+    color: blue;
+}
+/* Selector por Clase */
+.palabra{
+    font-size: 2rem;
+}
+/* 
+El orden de aplicación es en cascada, pero hay elementos que tienen mas peso que otros:
+1.!important.
+2.Estilos en línea.
+3.Selector por ID.
+4.Selector de etiqueta. 
+*/
