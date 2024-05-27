@@ -22,3 +22,18 @@ El orden de aplicación es en cascada, pero hay elementos que tienen mas peso qu
 3.Selector por ID.
 4.Selector de etiqueta. 
 */
+header{
+    background-color: aqua;
+    height: fit-content;
+    position:fixed;
+    
+}
+/* header:hover{
+    background-color: rgb(63, 48, 131);
+    height: fit-content;
+    position:fixed;
+    
+} */
+main{
+    padding-top: 5%;
+}
